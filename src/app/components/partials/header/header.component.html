@@ -1,0 +1,21 @@
+
+<header>
+  <div class="container">
+    <a routerLink="/" class="logo">TC ☺ Food Corner</a>
+    <nav>
+      <ul>
+            <li class="login-section">
+              <a routerLink="/dashboard">Login</a>
+              <div class="menu">
+                <a routerLink="/loginCustomer">Login As Customer</a>
+                <a routerLink="/loginMerchant">Login as Merchant</a>
+              </div>
+            </li>
+          <a routerLink="/cart-page">
+            Cart <span>{{cartQuantity}}</span>
+          </a>
+          <a routerLink="/register">New Here?(Register)</a>
+      </ul>
+    </nav>
+  </div>
+</header>
