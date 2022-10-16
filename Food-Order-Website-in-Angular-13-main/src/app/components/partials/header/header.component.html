@@ -4,25 +4,18 @@
     <a routerLink="/" class="logo">TC ☺ Food Corner</a>
     <nav>
       <ul>
-        
-        <li class="menu-container">
-          <a routerLink="/dashboard">Login</a>
-          <div class="menu">
-            <a routerLink="login">coustomer</a>
-            <a routerLink="marchant">marchant</a>
-            <a>Logout</a>
-          </div>
-        </li>
-        <li>
+        <a routerLink="/admin">ADMIN PAGE</a> 
+            <li class="login-section">
+              <a routerLink="/dashboard">Login</a>
+              <div class="menu">
+                <a routerLink="/loginCustomer">Login As Customer</a>
+                <a routerLink="/loginMerchant">Login as Merchant</a>
+              </div>
+            </li>
           <a routerLink="/cart-page">
             Cart <span>{{cartQuantity}}</span>
           </a>
-        </li>
-        <li>
-          <a routerLink="/cart-page">
-            Cart <span>{{cartQuantity}}</span>
-          </a>
-        </li>
+          <a routerLink="/register">New Here?(Register)</a>
       </ul>
     </nav>
   </div>

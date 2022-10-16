@@ -12,8 +12,10 @@ import { FoodPageComponent } from './components/pages/food-page/food-page.compon
 import { CartPageComponent } from './components/pages/cart-page/cart-page.component';
 import { TitleComponent } from './components/partials/title/title.component';
 import { NotFoundComponent } from './components/partials/not-found/not-found.component';
-import { LoginComponent } from './login/login.component';
-import { LoginformComponent } from './loginform/loginform.component';
+import { LoginCComponent } from './login-c/login-c.component';
+import { LoginMerchantComponent } from './login-merchant/login-merchant.component';
+import { RegisterComponent } from './register/register.component';
+import { AdminComponent } from './admin/admin.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,8 +27,10 @@ import { LoginformComponent } from './loginform/loginform.component';
     CartPageComponent,
     TitleComponent,
     NotFoundComponent,
-    LoginComponent,
-    LoginformComponent
+    LoginCComponent,
+    LoginMerchantComponent,
+    RegisterComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
