@@ -4,6 +4,30 @@ import { Tag } from './app/shared/models/Tag';
 export const sample_foods: Food[] = [
   {
     id:'1',
+    name: 'Samosa',
+    cookTime: '5-10',
+    price: 10,
+    favorite: true,
+    origins: ['Caupati'],
+    stars: 5,
+    imageUrl: 'assets/samosa.jpg',
+    tags: ['FastFood', 'Samosa', 'Snacks'],
+
+  },
+  {
+    id:'2',
+    name: 'Indian Thalli',
+    cookTime: '30',
+    price: 100,
+    favorite: false,
+    origins: ['indian'],
+    stars: 3,
+    imageUrl: 'assets/thalli.jpg',
+    tags: ['Fasting', 'Thalli', 'Lunch'],
+    
+  },
+  {
+    id:'2',
     name: 'Pizza Pepperoni',
     cookTime: '10-20',
     price: 10,
@@ -26,7 +50,7 @@ export const sample_foods: Food[] = [
   },
   {
     id:'3',
-    name: 'Hamburger',
+    name: 'Burger',
     price: 5,
     cookTime: '10-15',
     favorite: false,

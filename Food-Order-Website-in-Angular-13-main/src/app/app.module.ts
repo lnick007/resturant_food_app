@@ -16,6 +16,7 @@ import { LoginCComponent } from './login-c/login-c.component';
 import { LoginMerchantComponent } from './login-merchant/login-merchant.component';
 import { RegisterComponent } from './register/register.component';
 import { AdminComponent } from './admin/admin.component';
+import { UsersComponent } from './users/users.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +31,8 @@ import { AdminComponent } from './admin/admin.component';
     LoginCComponent,
     LoginMerchantComponent,
     RegisterComponent,
-    AdminComponent
+    AdminComponent,
+    UsersComponent
   ],
   imports: [
     BrowserModule,
