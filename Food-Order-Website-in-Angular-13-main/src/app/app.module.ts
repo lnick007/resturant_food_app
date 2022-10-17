@@ -17,6 +17,7 @@ import { LoginMerchantComponent } from './login-merchant/login-merchant.componen
 import { RegisterComponent } from './register/register.component';
 import { AdminComponent } from './admin/admin.component';
 import { UsersComponent } from './users/users.component';
+import { AddfoodComponent } from './addfood/addfood.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,7 +33,8 @@ import { UsersComponent } from './users/users.component';
     LoginMerchantComponent,
     RegisterComponent,
     AdminComponent,
-    UsersComponent
+    UsersComponent,
+    AddfoodComponent
   ],
   imports: [
     BrowserModule,
