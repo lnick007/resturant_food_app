@@ -18,6 +18,10 @@ import { RegisterComponent } from './register/register.component';
 import { AdminComponent } from './admin/admin.component';
 import { UsersComponent } from './users/users.component';
 import { AddfoodComponent } from './addfood/addfood.component';
+import { TotalCategoryComponent } from './total-category/total-category.component';
+import { AddCategoryComponent } from './add-category/add-category.component';
+import { TotalFoodComponent } from './total-food/total-food.component';
+import { TotalOrdersComponent } from './total-orders/total-orders.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,7 +38,11 @@ import { AddfoodComponent } from './addfood/addfood.component';
     RegisterComponent,
     AdminComponent,
     UsersComponent,
-    AddfoodComponent
+    AddfoodComponent,
+    TotalCategoryComponent,
+    AddCategoryComponent,
+    TotalFoodComponent,
+    TotalOrdersComponent
   ],
   imports: [
     BrowserModule,
