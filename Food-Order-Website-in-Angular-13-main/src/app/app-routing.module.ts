@@ -9,6 +9,9 @@ import { HomeComponent } from './components/pages/home/home.component';
 import { LoginCComponent } from './login-c/login-c.component';
 import { LoginMerchantComponent } from './login-merchant/login-merchant.component';
 import { RegisterComponent } from './register/register.component';
+import { TotalCategoryComponent } from './total-category/total-category.component';
+import { TotalFoodComponent } from './total-food/total-food.component';
+import { TotalOrdersComponent } from './total-orders/total-orders.component';
 import { UsersComponent } from './users/users.component';
 
 const routes: Routes = [
@@ -23,7 +26,10 @@ const routes: Routes = [
   {path:'admin',component:AdminComponent},
   {path:'users',component:UsersComponent},
   {path:'addfood', component:AddfoodComponent},
-  {path:'add-category',component:AddCategoryComponent}
+  {path:'add-category',component:AddCategoryComponent},
+  {path:'total-category', component:TotalCategoryComponent},
+  {path:'total-food',component:TotalFoodComponent},
+  {path:'total-order',component:TotalOrdersComponent}
 ];
 
 @NgModule({
